@@ -1,6 +1,8 @@
+@use "variables" as *;
+
 body {
   padding: 8vw 16vw;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
 }
 a {
   color: $color__link;
