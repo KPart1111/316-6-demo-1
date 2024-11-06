@@ -24,11 +24,11 @@ module.exports = function(grunt) {
       }
     });
   
-    // Load the plugin that provides the "sass" task.
+    // Load the plugin that provides the "sass" and "watch" tasks.
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
   
-    // Default task(s).
+    // Register Default task(s) we can run in Terminal
     grunt.registerTask('default', ['watch','sass']);
   
   };
